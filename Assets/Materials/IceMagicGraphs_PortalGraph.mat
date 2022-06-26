@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: IceMagicGraphs_PortalGraph
+  m_Shader: {fileID: -6465566751694194690, guid: 077cc0ae35b68854f9ca720e7e3ea61e, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_3a6e3eed47084ccf87193646b67bb6e6:
+        m_Texture: {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_185154d9f8bd4aba874a3e4f70ce692b: 5
+    - Vector1_a2e3a6bda8654dff88b5254814dc8140: 10
+    - Vector1_a5eb4ad3e6504e7faf72c57b5edd0363: 0.2
+    - Vector1_ddc9d1fa3367462aa766c47f1bdee363: 17.83
+    m_Colors:
+    - Color_6d21db5b45514b5b9fa3998db7743748: {r: 0.14901961, g: 0.9411765, b: 1.9137255, a: 1}
+  m_BuildTextureStacks: []
