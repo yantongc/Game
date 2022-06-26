@@ -19,7 +19,7 @@ public class MainManu : MonoBehaviour
         resumeGame = transform.GetChild(1).GetComponent<Button>();
         quitGame = transform.GetChild(2).GetComponent<Button>();
 
-        newGame.onClick.AddListener(playStartTimelineMovie);
+        newGame.onClick.AddListener(PlayStartTimelineMovie);
         resumeGame.onClick.AddListener(ResumeGame);
         resumeGame.interactable = PlayerPrefs.GetFloat("hasSaveDataInFile") > 0;
 
@@ -28,7 +28,7 @@ public class MainManu : MonoBehaviour
         director = FindObjectOfType<PlayableDirector>();
     }
 
-    void playStartTimelineMovie()
+    void PlayStartTimelineMovie()
     {
         director.Play();
         director.stopped += NewGame;

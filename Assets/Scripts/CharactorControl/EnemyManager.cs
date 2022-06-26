@@ -69,6 +69,7 @@ public class EnemyManager : MonoBehaviour, IEndGameObserver
     {
         if (!GameManager.IsInitialized) return;
         GameManager.Instance.RemoveAbserver(this);
+        if (!MouseManager.IsInitialized) return;
         BattleManager.Instance.OnAttackEnemyChange -= OnAttackEnemyChange;
     }
 
